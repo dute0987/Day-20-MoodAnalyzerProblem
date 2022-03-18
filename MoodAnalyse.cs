@@ -6,9 +6,6 @@ namespace MoodAnalyse
     [TestClass]
     public class AnalyzerTest
     {
-        /// <summary>
-        /// 2.1: Given “I am in HAPPY Mood” and null message Should Return HAPPY
-        /// </summary>
         [TestMethod]
         [DataRow("I am in HAPPY Mood")]
         [DataRow(null)]
